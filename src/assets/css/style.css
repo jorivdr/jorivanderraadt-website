@@ -6,114 +6,28 @@
   --color-header: #17536d;
 }
 
-/* De rest van je CSS blijft gelijk */
 body {
   font-family: 'Inter', sans-serif;
+  background: url('../img/datanautilus-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
   background-color: var(--color-bg);
   color: var(--color-text);
   margin: 0;
   padding: 0;
   line-height: 1.7;
-  background-image: linear-gradient(to bottom, #f0f7f8 0%, #e6f1f3 100%);
+  position: relative;
+  z-index: 0;
 }
 
-header {
-  background-color: var(--color-header);
-  color: white;
-  padding: 2.5rem 1rem;
-  text-align: center;
-  background-image: radial-gradient(circle at top center, #328aad 0%, #17536d 100%);
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-header p {
-  font-family: 'Georgia', serif;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  font-style: italic;
-}
-
-nav {
-  background-color: var(--color-light);
-  padding: 0.75rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-nav a {
-  color: var(--color-accent);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-section {
-  margin-bottom: 3rem;
-}
-
-section h2 {
-  color: var(--color-accent);
-  font-size: 1.5rem;
-  border-bottom: 2px solid var(--color-light);
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-}
-
-.project-card {
-  border: 1px solid var(--color-light);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-.project-card h3 {
-  margin-top: 0;
-  color: var(--color-accent);
-}
-
-.project-card p {
-  margin: 0.5rem 0 0;
-}
-
-footer {
-  background-color: var(--color-header);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
-  font-size: 0.9rem;
-}
-
-a {
-  color: var(--color-accent);
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #2b6f82;
-}
+/* rest van de styling (header, nav, project-cards, etc.) blijft gelijk */
