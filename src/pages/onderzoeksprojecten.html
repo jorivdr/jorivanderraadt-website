@@ -2,11 +2,102 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Pagina – Jori van der Raadt</title>
+  <title>Onderzoeksprojecten – Jori van der Raadt</title>
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    /* Stijlen voor de grid-layout */
+    .projecten-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .tile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .tile:hover {
+      background-color: #eaeaea;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .tile img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .tile a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <header><h1>Pagina titel</h1></header>
-  <main></main>
+  <header>
+    <h1>Onderzoeksprojecten</h1>
+  </header>
+  <main>
+    <section class="projecten-grid">
+      <!-- Onderwijs -->
+      <div class="tile">
+        <img src="../assets/icons/onderwijs.svg" alt="Onderwijs icon">
+        <a href="onderwijs-projecten.html">Onderwijs</a>
+      </div>
+
+      <!-- Biodiversiteit -->
+      <div class="tile">
+        <img src="../assets/icons/biodiversiteit.svg" alt="Biodiversiteit icon">
+        <a href="biodiversiteit-projecten.html">Biodiversiteit</a>
+      </div>
+
+      <!-- Paleontologie -->
+      <div class="tile">
+        <img src="../assets/icons/paleontologie.svg" alt="Paleontologie icon">
+        <a href="paleontologie-projecten.html">Paleontologie</a>
+      </div>
+
+      <!-- Evolutie -->
+      <div class="tile">
+        <img src="../assets/icons/evolutie.svg" alt="Evolutie icon">
+        <a href="evolutie-projecten.html">Evolutie</a>
+      </div>
+
+      <!-- Kaartjes -->
+      <div class="tile">
+        <img src="../assets/icons/kaartjes.svg" alt="Kaartjes icon">
+        <a href="kaartjes-projecten.html">Kaartjes</a>
+      </div>
+
+      <!-- Data science -->
+      <div class="tile">
+        <img src="../assets/icons/data-science.svg" alt="Data science icon">
+        <a href="data-science-projecten.html">Data science</a>
+      </div>
+
+      <!-- Sport -->
+      <div class="tile">
+        <img src="../assets/icons/sport.svg" alt="Sport icon">
+        <a href="sport-projecten.html">Sport</a>
+      </div>
+
+      <!-- Overig -->
+      <div class="tile">
+        <img src="../assets/icons/overig.svg" alt="Overig icon">
+        <a href="overig-projecten.html">Overig</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
