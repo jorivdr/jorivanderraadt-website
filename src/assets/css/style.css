@@ -1,17 +1,12 @@
-<!DOCTYPE html><html lang="nl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Datanautilus – expedities op eigen kompas</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Georgia&display=swap">
-  <style>
-    :root {
-      --color-bg: #f0f7f8;
-      --color-text: #1a2e35;
-      --color-accent: #3d8fa5;
-      --color-light: #c9e4ea;
-      --color-header: #103942;
-    }body {
+:root {
+  --color-bg: #f0f7f8;
+  --color-text: #1a2e35;
+  --color-accent: #3d8fa5;
+  --color-light: #c9e4ea;
+  --color-header: #103942;
+}
+
+body {
   font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
@@ -121,43 +116,3 @@ a {
 a:hover {
   color: #2b6f82;
 }
-
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Datanautilus</h1>
-    <p>Expedities op eigen kompas</p>
-  </header>  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="data-science.html">Data Science</a></li>
-      <li><a href="onderzoek.html">Onderzoek</a></li>
-      <li><a href="andere-projecten.html">Andere projecten</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="over-mij.html">Over mij</a></li>
-    </ul>
-  </nav>  <main>
-    <section>
-      <h2>Welkom</h2>
-      <p>Welkom op mijn website. Hier deel ik een selectie van data science toepassingen, onderzoeksprojecten, en andere creatieve of technische hobbyprojecten. Alles met een interesse in data, biologie, onderwijs en visualisatie.</p>
-    </section><section>
-  <h2>Projecten</h2>
-
-  <div class="project-card">
-    <h3><a href="#">Project A</a></h3>
-    <p>Een data-analyse of visueel experiment gericht op het verkennen van maatschappelijke of natuurlijke patronen.</p>
-  </div>
-
-  <div class="project-card">
-    <h3><a href="#">Project B</a></h3>
-    <p>Een toepassing van machine learning, visualisatie of interactieve tools voor een specifiek vraagstuk of dataset.</p>
-  </div>
-
-</section>
-
-  </main>  <footer>
-    <p>&copy; 2025 Jori van der Raadt · <a href="mailto:jori@email.com">Contact</a></p>
-  </footer>
-</body>
-</html>
