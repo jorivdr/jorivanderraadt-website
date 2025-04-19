@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: url('../img/datanautilus-bg.jpg') no-repeat center center fixed;
+  background: url('../img/datanautilus-bg.png') no-repeat center center fixed;
   background-size: cover;
   background-color: var(--color-bg);
   color: var(--color-text);
