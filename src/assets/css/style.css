@@ -36,3 +36,14 @@ a { color: var(--color-accent); transition: color 0.3s; }
 
 a:hover { color: #2b6f82; }
 
+.mono {
+  font-family: 'Fira Mono', monospace;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.serif {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: 400;
+}
