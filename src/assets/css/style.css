@@ -1,6 +1,6 @@
 :root { --color-bg: #f0f7f8; --color-text: #1a2e35; --color-accent: #328aad; --color-light: #c9e4ea; --color-header: #17536d; }
 
-body { font-family: 'Inter', sans-serif; background: url('../img/datanautilus-bg.jpg') no-repeat center center fixed; background-size: cover; background-color: var(--color-bg); color: var(--color-text); margin: 0; padding: 0; line-height: 1.7; position: relative; z-index: 0; }
+body { font-family: 'Inter', sans-serif; background: url('../img/datanautilus-bg.png') no-repeat center center fixed; background-size: cover; background-color: var(--color-bg); color: var(--color-text); margin: 0; padding: 0; line-height: 1.7; position: relative; z-index: 0; }
 
 body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.7); z-index: -1; }
 
