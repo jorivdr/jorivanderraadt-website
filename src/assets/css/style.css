@@ -1,11 +1,12 @@
 :root {
   --color-bg: #f0f7f8;
   --color-text: #1a2e35;
-  --color-accent: #3d8fa5;
+  --color-accent: #328aad;
   --color-light: #c9e4ea;
-  --color-header: #103942;
+  --color-header: #17536d;
 }
 
+/* De rest van je CSS blijft gelijk */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
@@ -21,7 +22,7 @@ header {
   color: white;
   padding: 2.5rem 1rem;
   text-align: center;
-  background-image: radial-gradient(circle at top center, #145665 0%, #103942 100%);
+  background-image: radial-gradient(circle at top center, #328aad 0%, #17536d 100%);
 }
 
 header h1 {
