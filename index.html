@@ -6,11 +6,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Georgia&display=swap">
   <style>
     :root {
-      --color-bg: #f9fafb;
-      --color-text: #222;
-      --color-accent: #25615a;
-      --color-light: #e6f0ee;
-      --color-header: #14342b;
+      --color-bg: #f0f7f8;
+      --color-text: #1a2e35;
+      --color-accent: #3d8fa5;
+      --color-light: #c9e4ea;
+      --color-header: #103942;
     }body {
   font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
@@ -18,29 +18,34 @@
   margin: 0;
   padding: 0;
   line-height: 1.7;
+  background-image: linear-gradient(to bottom, #f0f7f8 0%, #e6f1f3 100%);
 }
 
 header {
   background-color: var(--color-header);
   color: white;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
+  background-image: radial-gradient(circle at top center, #145665 0%, #103942 100%);
 }
 
 header h1 {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 header p {
   font-family: 'Georgia', serif;
   font-size: 1.1rem;
   opacity: 0.9;
+  font-style: italic;
 }
 
 nav {
   background-color: var(--color-light);
   padding: 0.75rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav ul {
@@ -87,7 +92,7 @@ section h2 {
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .project-card h3 {
@@ -105,6 +110,7 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
+  font-size: 0.9rem;
 }
 
 a {
@@ -113,7 +119,7 @@ a {
 }
 
 a:hover {
-  color: #1b4841;
+  color: #2b6f82;
 }
 
   </style>
