@@ -1,134 +1,19 @@
-<!DOCTYPE html><html lang="nl">
+<!DOCTYPE html>
+<html lang="nl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Datanautilus – expedities op eigen kompas</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Georgia&display=swap">
-  <style>
-    :root {
-      --color-bg: #f0f7f8;
-      --color-text: #1a2e35;
-      --color-accent: #3d8fa5;
-      --color-light: #c9e4ea;
-      --color-header: #103942;
-    }body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  margin: 0;
-  padding: 0;
-  line-height: 1.7;
-  background-image: linear-gradient(to bottom, #f0f7f8 0%, #e6f1f3 100%);
-}
-
-header {
-  background-color: var(--color-header);
-  color: white;
-  padding: 2.5rem 1rem;
-  text-align: center;
-  background-image: radial-gradient(circle at top center, #145665 0%, #103942 100%);
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-header p {
-  font-family: 'Georgia', serif;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  font-style: italic;
-}
-
-nav {
-  background-color: var(--color-light);
-  padding: 0.75rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-nav a {
-  color: var(--color-accent);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-section {
-  margin-bottom: 3rem;
-}
-
-section h2 {
-  color: var(--color-accent);
-  font-size: 1.5rem;
-  border-bottom: 2px solid var(--color-light);
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-}
-
-.project-card {
-  border: 1px solid var(--color-light);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-.project-card h3 {
-  margin-top: 0;
-  color: var(--color-accent);
-}
-
-.project-card p {
-  margin: 0.5rem 0 0;
-}
-
-footer {
-  background-color: var(--color-header);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
-  font-size: 0.9rem;
-}
-
-a {
-  color: var(--color-accent);
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #2b6f82;
-}
-
-  </style>
+  <link rel="stylesheet" href="src/assets/css/style.css" />
 </head>
 <body>
   <header>
     <h1>Datanautilus</h1>
     <p>Expedities op eigen kompas</p>
-  </header>  <nav>
+  </header>
+
+  <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="data-science.html">Data Science</a></li>
@@ -137,26 +22,31 @@ a:hover {
       <li><a href="blog.html">Blog</a></li>
       <li><a href="over-mij.html">Over mij</a></li>
     </ul>
-  </nav>  <main>
+  </nav>
+
+  <main>
     <section>
       <h2>Welkom</h2>
       <p>Welkom op mijn website. Hier deel ik een selectie van data science toepassingen, onderzoeksprojecten, en andere creatieve of technische hobbyprojecten. Alles met een interesse in data, biologie, onderwijs en visualisatie.</p>
-    </section><section>
-  <h2>Projecten</h2>
+    </section>
 
-  <div class="project-card">
-    <h3><a href="#">Project A</a></h3>
-    <p>Een data-analyse of visueel experiment gericht op het verkennen van maatschappelijke of natuurlijke patronen.</p>
-  </div>
+    <section>
+      <h2>Projecten</h2>
 
-  <div class="project-card">
-    <h3><a href="#">Project B</a></h3>
-    <p>Een toepassing van machine learning, visualisatie of interactieve tools voor een specifiek vraagstuk of dataset.</p>
-  </div>
+      <div class="project-card">
+        <h3><a href="#">Project A</a></h3>
+        <p>Een data-analyse of visueel experiment gericht op het verkennen van maatschappelijke of natuurlijke patronen.</p>
+      </div>
 
-</section>
+      <div class="project-card">
+        <h3><a href="#">Project B</a></h3>
+        <p>Een toepassing van machine learning, visualisatie of interactieve tools voor een specifiek vraagstuk of dataset.</p>
+      </div>
 
-  </main>  <footer>
+    </section>
+  </main>
+
+  <footer>
     <p>&copy; 2025 Jori van der Raadt · <a href="mailto:jori@email.com">Contact</a></p>
   </footer>
 </body>
