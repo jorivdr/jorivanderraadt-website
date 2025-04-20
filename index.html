@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!DOCTYPE html><html lang="nl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,46 +6,62 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Georgia&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Georgia&display=swap">
   <link rel="stylesheet" href="src/assets/css/style.css" />
+  <style>
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--color-light);
+      border-radius: 8px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: background-color 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: var(--color-text);
+      margin-bottom: 20px;
+    }.project-card:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin: 0;
+}
+
+  </style>
 </head>
 <body>
   <header>
-  <h1>
-    <span class="mono">Data</span><span class="separator">·</span><span class="mono">Nautilus</span>
-  </h1>
-  <p>Op eigen kompas door de diepzee van data</p>
-</header>
-
-  <nav>
+    <h1>
+      <span class="mono">Data</span><span class="separator">&middot;</span><span class="mono">Nautilus</span>
+    </h1>
+    <p>Op eigen kompas door de diepzee van data</p>
+  </header>  <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="src/pages/onderzoeksprojecten.html">Projecten</a></li>
       <li><a href="src/pages/over-mij.html">Over mij</a></li>
     </ul>
-  </nav>
-
-  <main>
+  </nav>  <main>
     <section>
       <h2>Welkom</h2>
-      <p>Welkom op mijn website. Hier deel ik mijn hobbyprojecten op het gebied van data science, onderzoek, en andere creatieve of technische hobbyprojecten. </p>
-    </section>
+      <p>Welkom op mijn website. Hier deel ik mijn hobbyprojecten op het gebied van data science, onderzoek, en andere creatieve of technische hobbyprojecten.</p>
+    </section><section>
+  <h2>Uitgelichte projecten</h2>
 
-    <section>
-      <h2>Uitgelichte projecten</h2>
+  <a class="project-card" href="#">
+    <h3>Project A</h3>
+    <p>Beschrijvende tekst project A.</p>
+  </a>
 
-      <div class="project-card">
-        <h3><a href="#">Project A</a></h3>
-        <p>Beschrijvende tekst project A.</p>
-      </div>
+  <a class="project-card" href="#">
+    <h3>Project B</h3>
+    <p>Beschrijvende tekst project B.</p>
+  </a>
 
-      <div class="project-card">
-        <h3><a href="#">Project B</a></h3>
-        <p>Beschrijvende tekst project B.</p>
-      </div>
+</section>
 
-    </section>
-  </main>
-
-  <footer>
+  </main>  <footer>
     <p>&copy; 2025 Jori van der Raadt · <a href="mailto:jorivdr@gmail.com">Contact</a></p>
   </footer>
 </body>
