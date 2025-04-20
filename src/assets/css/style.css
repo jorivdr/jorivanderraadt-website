@@ -72,3 +72,27 @@ a:hover { color: #2b6f82; }
 .tile div {
   font-weight: bold;
 }
+
+.banner-image {
+  background-image: url('../assets/img/banner.png'); /* Pas het pad aan naar jouw bestand */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Pas de hoogte aan naar wens */
+  text-align: center;
+  color: white; /* Zorg dat de tekst goed zichtbaar is */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.banner-image h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.banner-image p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
