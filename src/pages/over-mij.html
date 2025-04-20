@@ -2,11 +2,52 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Pagina – Jori van der Raadt</title>
+  <title>Over mij – Jori van der Raadt</title>
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;600&family=Georgia&display=swap">
+  <style>
+    .mono {
+      font-family: 'Fira Mono', monospace;
+      font-weight: 500;
+    }
+    .serif {
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .separator {
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 0 0.3rem;
+      color: var(--color-accent);
+      display: inline-block;
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 <body>
-  <header><h1>Over de maker van deze website</h1></header>
-  <main></main>
+  <header>
+    <h1><span class="mono">Data</span><span class="separator">&middot;</span><span class="serif">Nautilus</span></h1>
+    <p>Op eigen kompas door de diepzee van data</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="onderzoeksprojecten.html">Projecten</a></li>
+      <li><a href="over-mij.html">Over mij</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Over de maker van deze website</h2>
+      <p>Hier kun je iets schrijven over jezelf: je achtergrond, wat je drijft, je fascinaties voor data, wetenschap en verwondering. Bijvoorbeeld hoe je tot deze projecten komt en waar je inspiratie vandaan haalt.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jori van der Raadt · <a href="mailto:jori@email.com">Contact</a></p>
+  </footer>
 </body>
 </html>
