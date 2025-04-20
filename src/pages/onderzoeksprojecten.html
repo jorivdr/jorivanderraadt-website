@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!DOCTYPE html><html lang="nl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,6 +24,8 @@
       background-color: white;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
       transition: background-color 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: var(--color-text);
     }
     .tile:hover {
       background-color: #eaeaea;
@@ -35,9 +36,7 @@
       height: 80px;
       margin-bottom: 10px;
     }
-    .tile a {
-      text-decoration: none;
-      color: var(--color-text);
+    .tile div {
       font-weight: bold;
     }
   </style>
@@ -46,57 +45,51 @@
   <header>
     <h1><span class="mono">Data</span><span class="separator">&middot;</span><span class="mono">Nautilus</span></h1>
     <p>Op eigen kompas door de diepzee van data</p>
-  </header>
-
-  <nav>
+  </header>  <nav>
     <ul>
       <li><a href="../../index.html">Home</a></li>
       <li><a href="onderzoeksprojecten.html">Projecten</a></li>
       <li><a href="over-mij.html">Over mij</a></li>
     </ul>
-  </nav>
-
-  <main>
+  </nav>  <main>
     <section>
       <h2>Thema project</h2>
       <div class="projecten-grid">
-        <div class="tile">
+        <a class="tile" href="thema/onderwijs.html">
           <img src="../assets/icons/icoon-onderwijs.png" alt="Onderwijs icon">
-          <a href="thema/onderwijs.html">Onderwijs</a>
-        </div>
-        <div class="tile">
+          <div>Onderwijs</div>
+        </a>
+        <a class="tile" href="thema/biodiversiteit.html">
           <img src="../assets/icons/icoon-biodiversiteit.png" alt="Biodiversiteit icon">
-          <a href="thema/biodiversiteit.html">Biodiversiteit</a>
-        </div>
-        <div class="tile">
+          <div>Biodiversiteit</div>
+        </a>
+        <a class="tile" href="thema/paleontologie.html">
           <img src="../assets/icons/icoon-paleontologie.png" alt="Paleontologie icon">
-          <a href="thema/paleontologie.html">Archeologie</a>
-        </div>
-        <div class="tile">
+          <div>Archeologie</div>
+        </a>
+        <a class="tile" href="thema/evolutie.html">
           <img src="../assets/icons/icoon-evolutie.png" alt="Evolutie icon">
-          <a href="thema/evolutie.html">Evolutie</a>
-        </div>
-        <div class="tile">
+          <div>Evolutie</div>
+        </a>
+        <a class="tile" href="thema/gis.html">
           <img src="../assets/icons/icoon-gis.png" alt="GIS icon">
-          <a href="thema/gis.html">GIS</a>
-        </div>
-        <div class="tile">
+          <div>GIS</div>
+        </a>
+        <a class="tile" href="thema/data-science.html">
           <img src="../assets/icons/icoon-datascience.png" alt="Data science icon">
-          <a href="thema/data-science.html">Data science</a>
-        </div>
-        <div class="tile">
+          <div>Data science</div>
+        </a>
+        <a class="tile" href="thema/sport.html">
           <img src="../assets/icons/icoon-sport.png" alt="Sport icon">
-          <a href="thema/sport.html">Sport</a>
-        </div>
-        <div class="tile">
+          <div>Sport</div>
+        </a>
+        <a class="tile" href="thema/overig.html">
           <img src="../assets/icons/icoon-overig.png" alt="Overig icon">
-          <a href="thema/overig.html">Overig</a>
-        </div>
+          <div>Overig</div>
+        </a>
       </div>
     </section>
-  </main>
-
-  <footer>
+  </main>  <footer>
     <p>&copy; 2025 Jori van der Raadt · <a href="mailto:jori@email.com">Contact</a></p>
   </footer>
 </body>
